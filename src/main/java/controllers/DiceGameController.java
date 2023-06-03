@@ -25,11 +25,11 @@ public class DiceGameController {
     }
 
     public void tumbleDice(int readLine) {
-        List<Integer> arr = new ArrayList<>();
+        List<Integer> tumbleList = new ArrayList<>();
         for (int i = 0; i < readLine; i++) {
-            arr.add(i, RANDOM.nextInt(5) + 1);
+            tumbleList.add(i, RANDOM.nextInt(5) + 1);
         }
-        System.out.println(arr);
+        System.out.println(tumbleList);
     }
 
     public String selectGoStop() {
