@@ -25,7 +25,7 @@ public class DiceGameController {
     }
 
     public void tumbleDice(int readLine) {
-        ArrayList<Integer> arr = new ArrayList<>();
+        List<Integer> arr = new ArrayList<>();
         for (int i = 0; i < readLine; i++) {
             arr.add(i, RANDOM.nextInt(5) + 1);
         }
